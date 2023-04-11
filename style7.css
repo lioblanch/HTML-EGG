@@ -1,0 +1,17 @@
+:root {
+    --fuente-principal: "Open Sans", sans-serif;
+    --fuente-secundaria: "Roboto", sans-serif;
+    --fondo-principal: #DD614A;
+}
+  
+    body{
+     background: var(--fondo-principal);
+    }
+  h1{
+    font-family: var(--fuente-principal);
+  }
+
+  h2{
+    font-family: var(--fuente-secundaria);
+    
+  }
