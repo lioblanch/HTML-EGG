@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .formulario {
+            display: flexbox;
+            flex-direction: column;
+        }
+        label{
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        input{
+            border-radius: 4px;
+            box-sizing: border-box;
+
+        }
+    </style>
+
+    <h1>Registrar un usuario</h1>
+    <form class="formulario" action="" method="post" enctype="text/plain">
+        <label for="">Nombre del Usuario</label>
+        <input type="text" name="name" placeholder="Nombre del Usuario">
+        <label for="">Contraseña del Usuario</label>
+        <input type="password" name ="userPassword" placeholder="Digite su contraseña">
+        <label for="">Edad del Usuario</label>
+        <input type="number" name="age" placeholder="Digite su edad">
+        <label for="">Fecha de nacimiento del usuario</label>
+        <input type="date">
+        <label for="">Sexo del usuario</label>
+        <input type="radio" name="gender" value="1"> <label for="gender">Masculino</label> 
+        
+        <input type="radio" name="gender" value="2"><label for="gender">Femenino</label> 
+        
+        <input type="radio" name="gender" value="3"><label for="gender">Prefiere no decir</label> 
+        <label for="country">Pais nacimiento del Usuario</label>
+        <select name="country" id="">
+            <option value="">Colombia</option>
+            <option value="">Peru</option>
+            <option value="">Argentina</option>
+            <option value="">Mexico</option>
+        </select>
+        <br>
+
+        <button>Enviar</button>
+        <button>Borrar</button>
+    </form>
+</body>
+</html>
